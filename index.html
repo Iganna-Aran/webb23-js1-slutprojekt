@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>City weather searcher!</title>
+    <title>Check city weather</title>
     <link rel="stylesheet" type="text/css" href="./styles/styles.css" />
     <script src="./js/script.js" defer></script> 
 </head>
 <body>
     <div class="card">
-        <div class="search">
-            <input type="text" placeholder="enter city name" spellcheck="false">
-            <button>
-                <img src="./images/searchicon.png" alt="search">
-            </button>
-        </div>
-        <div class="error">
-            <p>City not found</p>
-        </div>
+        <form class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false" class="searchInput">
+            <input type="image" src="./images/searchicon.png" class="searchBtn">
+            <div class="error">
+                <p>City not found</p>
+            </div>
+        </form>
 
         <div class="weather">
             <img src="./images/questionmark.png" class="weatherIcon">
@@ -41,8 +39,6 @@
         </div>
       
     </div>
-
-    
     
 </body>
 </html>
