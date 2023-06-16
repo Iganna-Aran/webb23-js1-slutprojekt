@@ -1,1 +1,1 @@
-# webb23-js1-slutprojekt
+# webb23-js1-slutprojekt-igana-paredes
