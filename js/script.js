@@ -26,16 +26,16 @@ async function checkWeather(city) {
   document.querySelector(".desc").innerHTML = data.weather[0].description;
 
   if(data.weather[0].main == "Clouds"){
-    weatherIcon.src = "images/cloud.png";
+    weatherIcon.src = "./images/cloud.png";
   }
   else if(data.weather[0].main == "Clear"){
-    weatherIcon.src = "images/sun.png";
+    weatherIcon.src = "./images/sun.png";
   }
   else if(data.weather[0].main == "Rain"){
-    weatherIcon.src = "images/raining.png";
+    weatherIcon.src = "./images/raining.png";
   }
   else if(data.weather[0].main == "Snow"){
-    weatherIcon.src = "images/snow.png";
+    weatherIcon.src = "./images/snow.png";
   }
   document.querySelector(".weather").style.display = "block";
   document.querySelector(".error").style.display = "none";
